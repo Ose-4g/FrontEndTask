@@ -28,13 +28,14 @@ p{
     color: #14B08B;
 }
 
-.grid-container
+.grid-container-form
 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
+    margin-top: 16px;
 }
 
-.secondary_header{
+.secondary_header{ 
     color: #595959;
     font-style: normal;
     font-weight: bold;
@@ -63,4 +64,22 @@ p{
 .arrow
 {
     float: right;
+}
+
+.form_input
+{
+    border-radius: 5px;
+    border-width: 3px;
+    padding: 23px;
+    font-size: 20px;
+}
+
+.form_input.col1
+{
+    margin-right: 20px;
+}
+
+.form_input.row1
+{
+    margin-bottom: 20px;
 }
