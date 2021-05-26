@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .header_div {
     background-color: rgba(237, 255, 251, 1.0);
     width: 100%;
@@ -113,5 +118,31 @@ p{
     margin-top: 40px;
     border-radius: 5px;
 
+}
+
+#dropdown_items ul
+{
+   list-style: none;
+   position:absolute;
+   font-size: 20px;
+   background-color: rgba(255, 238, 209, 1.0);
+}
+
+
+#dropdown_items ul li
+{
+   padding: 25px;
+}
+
+#dropdown_items ul li:hover
+{
+
+   background-color: rgba(237, 255, 251, 1.0);
+}
+
+
+#dropdown_items
+{
+    display: none;
 }
 

@@ -2,6 +2,7 @@
 <head>
     <title>Ose's Frontens Task</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="code.js"></script>
 </head>
 
 <body>
@@ -18,10 +19,14 @@
     <div class="lower_body"> 
         <p class="secondary_header">Reason for applying</p>
 
-        <div class="dropdown">
+        <div class="dropdown" onclick="showDropDownItems()">
             <span id = "dropdown_text">I have a question about the service </span>
             <img src="./images/arrow.svg" alt="" class = "arrow">
         </div>
+        <div id="dropdown_items">
+               
+        </div>
+        
 
 
         <p class="secondary_header">Enter your details</p>
