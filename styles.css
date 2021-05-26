@@ -92,16 +92,19 @@ p{
 .form-input-text-area
 {
     margin-top: 16px;
-    width: auto;
+    resize: vertical;
+    width: 100%;
+    box-sizing: border-box;
     border-radius: 5px;
     border-width: 1px;
     padding: 23px;
     font-size: 20px;
+    min-height: 10px
 }
 
 #submit-form
 {
-    float: right;
+    border-style: none;
     color: white;
     background-color: #14B08B;
     padding: 30px 130px;
@@ -109,5 +112,6 @@ p{
     font-weight: bold;
     margin-top: 40px;
     border-radius: 5px;
-    margin-bottom: 400px;
+
 }
+
