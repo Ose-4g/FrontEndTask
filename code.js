@@ -1,4 +1,4 @@
-let texts = ["I have a question about the service","I want to speak to an employee","how do you do"];
+let texts = ["I have a question about the service","I want to speak to an employee","I would like to schedule a physical appointment"];
 
 //loads values into the dropdown menu as the page loads
 window.onload = function(){
