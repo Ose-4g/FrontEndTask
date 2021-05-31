@@ -2,7 +2,6 @@
 <head>
     <title>Ose's Frontend Task</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="code.js"></script>
 </head>
 
 <body>
@@ -15,23 +14,28 @@
         </p>
     </div>
 
-    <!--For the loawer part of the page-->
+
+    <!--For the loawer part of the p    <script src="code.js"></script>age-->
     <div class="lower_body"> 
         <p class="secondary_header">Reason for applying</p>
 
-        <div class="dropdown" onclick="showDropDownItems()">
-            <span id = "dropdown_text">I have a question about the service </span>
-            <img src="./images/arrow.svg" alt="" class = "arrow">
-        </div>
-        <div id="dropdown_items">
-               
-        </div>
         
 
 
         <p class="secondary_header">Enter your details</p>
 
         <form>
+            <p class="secondary_header">Enter your details</p>
+            
+            <div class="dropdown_div">
+                <select class = "dropdown_text">
+                    <option value="I have a question about the service"></option>
+                    <option value="I want to speak to an employee"></option>
+                    <option value="I would like to schedule a physical appointment"></option>
+                    <option value="Option not above"></option>
+                </select`>
+            </div>
+
             <div class="grid-container-form">
                 <input type="text" class = "grid-item form_input col1 row1" placeholder="First Name">
                 <input type="text" class = "grid-item form_input row1" placeholder="Last Name">
