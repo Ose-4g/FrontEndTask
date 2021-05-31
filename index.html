@@ -6,6 +6,7 @@
 
 <body>
 
+
     <!--For the header part-->
     <div class="header_div">
         <p class="header_div_text">
@@ -14,28 +15,26 @@
         </p>
     </div>
 
+    <!--For the lower port that contains the form-->
 
-    <!--For the loawer part of the p    <script src="code.js"></script>age-->
     <div class="lower_body"> 
-        <p class="secondary_header">Reason for applying</p>
-
-        
-
-
-        <p class="secondary_header">Enter your details</p>
-
+       
         <form>
-            <p class="secondary_header">Enter your details</p>
-            
-            <div class="dropdown_div">
-                <select class = "dropdown_text">
-                    <option value="I have a question about the service"></option>
-                    <option value="I want to speak to an employee"></option>
-                    <option value="I would like to schedule a physical appointment"></option>
-                    <option value="Option not above"></option>
-                </select`>
+
+            <p class="secondary_header">Reason for applying</p>
+        
+            <div class="dropdown">
+                <select class = "dropdown-text">
+                    <option value="0" selected>I have a question about the service</option>
+                    <option value="1">I want to speak to an employee</option>
+                    <option value="2">I would like to schedule a physical appointment</option>
+                    <option value="3">My option is not listed above</option>
+                </select>
             </div>
 
+
+            <p class="secondary_header">Enter your details</p>
+    
             <div class="grid-container-form">
                 <input type="text" class = "grid-item form_input col1 row1" placeholder="First Name">
                 <input type="text" class = "grid-item form_input row1" placeholder="Last Name">
@@ -43,13 +42,18 @@
                 <input type="text" class = "grid-item form_input" placeholder="Phone Number">
             </div>
 
+
             <p class="secondary_header messages">Messages</p>
+
+
             <div>
                 <textarea class = "form-input-text-area" name="message" rows="10" placeholder="Type your message here"></textarea>
             </div>
+
             <div class="div-submit-button"> 
                 <input type="submit" id="submit-form" value="Send message" >
             </div>
+
         </form>
 
     </div>
